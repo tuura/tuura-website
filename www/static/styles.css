@@ -18,3 +18,8 @@ content {
 .banner {
 	margin-bottom: 40px;
 }
+
+hr {
+	border: none;
+	border-bottom: solid 1px #ddd;
+}
