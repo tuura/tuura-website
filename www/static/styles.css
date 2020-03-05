@@ -2,17 +2,50 @@
 
 * {
 	font-family: "Open Sans" !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-	display: flex;
-	justify-content: center;
-	margin: 0;
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    body {
+        /* background-color: #F09A9D; */
+
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    content {
+        width: 360px;
+    }
 }
 
-content {
-	width: 960px;
-	padding: 60px 0 0;
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        /* background-color: #F5CF8E; */
+
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+    body {
+        /* background-color: #B2D6FF; */
+
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    content {
+        width: 960px;
+    }
 }
 
 .banner {
