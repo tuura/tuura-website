@@ -52,6 +52,16 @@
 	margin-bottom: 40px;
 }
 
+.banner a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.banner a:hover, a:active {
+    text-decoration: none;
+    color: #009fda;
+}
+
 hr {
 	border: none;
 	border-bottom: solid 1px #ddd;
